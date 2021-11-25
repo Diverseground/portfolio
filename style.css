@@ -352,8 +352,7 @@ h1 {
 
 h2 {
   color: var(--on-background-alt);
-  font-size: 60px;
-  margin: 2rem;
+  font-size: 32px;
   font-weight: normal;
 }
 
@@ -421,6 +420,14 @@ img {
 }
 .social-icons {
   margin-top: 4rem;
+}
+
+section #contact h2 {
+  font-size: 60px;
+  margin: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 button {
