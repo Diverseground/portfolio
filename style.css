@@ -73,7 +73,7 @@ body {
   color: var(--on-background);
   background-color: var(--background);
   overflow-x: hidden;
-  background-image: url("./public/topography.svg"), var(--linear-background);
+  background-image: url("./topography.svg"), var(--linear-background);
 }
 button a {
   text-decoration: none;
@@ -264,8 +264,8 @@ section {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background: url("./public/cloud-light.svg"),
-    url("./public/cloud-background.svg"), var(--linear-background-alt);
+  background: url("./cloud-light.svg"), url("./cloud-background.svg"),
+    var(--linear-background-alt);
   box-shadow: var(--box-shadow), 0 1px 4px rgb(0 0 0 / 30%),
     0 0 40px rgb(0 0 0 / 10%) inset;
   opacity: 0.9;
@@ -277,8 +277,8 @@ section {
 #home {
   align-items: center;
   justify-content: center;
-  background: url("./public/cloud-light.svg"),
-    url("./public/cloud-background.svg"), var(--linear-background-alt);
+  background: url("./cloud-light.svg"), url("./cloud-background.svg"),
+    var(--linear-background-alt);
   box-shadow: var(--box-shadow), 0 1px 4px rgb(0 0 0 / 30%),
     0 0 40px rgb(0 0 0 / 10%) inset;
   opacity: 0.9;
@@ -492,8 +492,8 @@ p {
     margin: 0 1rem;
     padding: 1rem 0;
     border-radius: 10px;
-    background: url("./public/cloud-light.svg"),
-      url("./public/cloud-background.svg"), var(--linear-background-alt);
+    background: url("./cloud-light.svg"), url("./cloud-background.svg"),
+      var(--linear-background-alt);
     box-shadow: var(--box-shadow), 0 1px 4px rgb(0 0 0 / 30%),
       0 0 40px rgb(0 0 0 / 10%) inset;
     opacity: 0.9;
