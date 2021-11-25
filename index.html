@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script
+      src="https://kit.fontawesome.com/4074dbb482.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="nav.js" defer></script>
+  </head>
+  <body class="home">
+    <div class="box">
+      <div class="burger"></div>
+    </div>
+    <header class="primary-header flex">
+      <button
+        class="mobile-nav-toggle"
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <nav>
+        <ul
+          data-visible="false"
+          id="primary-navigation"
+          class="flex primary-navigation"
+        >
+          <span class="filiment"></span>
+          <li>
+            <a href="#home"
+              ><span aria-hidden="true"><i class="fas fa-home"></i></span>
+              Home</a
+            >
+          </li>
+          <li>
+            <a href="#projects"
+              ><span aria-hidden="true"><i class="fas fa-tasks"></i></span>
+              Projects</a
+            >
+          </li>
+          <li>
+            <a href="#about"
+              ><span aria-hidden="true"
+                ><i class="fas fa-id-card-alt"></i
+              ></span>
+              About</a
+            >
+          </li>
+
+          <li>
+            <a href="#contact"
+              ><span aria-hidden="true"
+                ><i class="fas fa-paper-plane"></i
+              ></span>
+              Contact</a
+            >
+          </li>
+          <li>
+            <a>
+              <div class="theme-switch-wrapper">
+                <span id="toggle-icon" class="trigger">
+                  <i class="fas fa-sun"></i>
+                </span>
+                <span id="toggle-text" class="trigger-label">Light Mode </span>
+
+                <label class="theme-switch" for="checkbox">
+                  <input type="checkbox" id="checkbox" />
+                  <div class="slider round"></div>
+                </label>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home">
+      <div class="title-group">
+        <h1 id="title">One Frank Design</h1>
+        <h2 id="sub-title">
+          I'm Frank Krogh. A Web Designer and Full-Stack Developer
+        </h2>
+      </div>
+    </section>
+    <section id="projects">
+      <h1>Projects</h1>
+      <div class="about-container">
+        <div class="image-container">
+          <h2>Large App with Users</h2>
+          <img
+            src="https://res.cloudinary.com/dweayt7bo/image/upload/c_scale,w_250/v1637865503/portfolio/Ozarkeats_omve5t.png"
+            id="image1"
+            alt="an image of the website ozark eats"
+          />
+        </div>
+        <div class="image-container">
+          <h2>Embed Widgets</h2>
+          <img
+            src="https://res.cloudinary.com/dweayt7bo/image/upload/c_scale,w_250/v1637865513/portfolio/pictureInPicture_iqsler.png"
+            id="image2"
+            alt="Web Design"
+          />
+        </div>
+        <div class="image-container">
+          <h2>API Production</h2>
+          <img
+            src="https://res.cloudinary.com/dweayt7bo/image/upload/c_scale,w_250/v1637865530/portfolio/productManagmentApi_kwx7bm.png"
+            id="image3"
+            alt="Web Design"
+          />
+        </div>
+        <div class="image-container">
+          <h2>Local and API Requests</h2>
+          <img
+            src="https://res.cloudinary.com/dweayt7bo/image/upload/c_scale,w_250/v1637865548/portfolio/quoteApp_zybjnb.png"
+            id="image4"
+            alt="Web Design"
+          />
+        </div>
+        <div class="image-container">
+          <h2>Blogging</h2>
+          <img
+            src="https://res.cloudinary.com/dweayt7bo/image/upload/c_scale,w_250/v1637865557/portfolio/wiseDirt_g2thrl.png"
+            id="image5"
+            alt="Blogging"
+          />
+        </div>
+        <div class="image-container">
+          <h2>Smooth UI</h2>
+          <img
+            src="https://res.cloudinary.com/dweayt7bo/image/upload/c_scale,w_250/v1637865495/portfolio/infinityScroll_vuwnib.png"
+            id="image6"
+            alt="Screenshot of infinite scroll"
+          />
+        </div>
+      </div>
+      <div class="see-more">
+        <a
+          href="https://github.com/Diverseground?tab=repositories"
+          target="_blank"
+        >
+          <button class="primary">
+            See More <i class="fas fa-arrow-right"></i>
+          </button>
+        </a>
+      </div>
+    </section>
+    <section id="about" class="flex">
+      <h1>About</h1>
+      <div class="about-box">
+        <div class="image-container">
+          <img
+            src="https://res.cloudinary.com/dweayt7bo/image/upload/w_250,ar_1:1,c_fill,g_auto,e_art:hokusai/v1637865483/portfolio/217012944_515307019779223_857936926334204186_n_munk6t.jpg"
+            id="image7"
+            alt="Me"
+          />
+        </div>
+        <div class="text-box" id="text-box">
+          <p>
+            I'm a full-stack web developer with a passion for design and
+            development. I have a background in graphic design, digital
+            advertising, and web development.
+
+            <br />
+
+            I have experience in EJS, CSS, JavaScript, MongoDB, Node.js and
+            MySQL. I am currently learning React and GraphQL. I am looking to
+            learn more about the MERN stack.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="social-icons">
+        <a href="https://github.com/Diverseground" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://codepen.io/Diversifiedground" target="_blank"
+          ><i class="fab fa-codepen"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/frank-krogh-b9ba68203/"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://www.freecodecamp.org/diversifiedground" target="_blank"
+          ><i class="fab fa-free-code-camp"></i
+        ></a>
+        <a href="https://twitter.com/Wise_Dirt" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://www.instagram.com/wise_dirt/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
