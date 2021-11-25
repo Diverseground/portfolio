@@ -21,13 +21,13 @@ const home = document.getElementById("home");
 const aboutBox = document.querySelector(".about-box");
 
 const imageMode = (mode) => {
-  home.style.background = `url("../portfolio/public/cloud-${mode}.svg"), url("../portfolio/public/cloud-background.svg"), var(--linear-background-alt)`;
+  home.style.background = `url("./public/cloud-${mode}.svg"), url("./public/cloud-background.svg"), var(--linear-background-alt)`;
   home.style.transition = "all 0.7s ease-in-out";
   home.style.backgroundSize = "cover";
   home.style.backgroundPosition = "center";
   home.style.backgroundAttachment = "fixed";
 
-  aboutBox.style.background = `url("../portfolio/public/cloud-${mode}.svg"), url('../portfolio/public/cloud-background.svg'), var(--linear-background-alt)`;
+  aboutBox.style.background = `url("./public/cloud-${mode}.svg"), url('./public/cloud-background.svg'), var(--linear-background-alt)`;
   aboutBox.style.transition = "all 0.7s ease-in-out";
   aboutBox.style.backgroundSize = "cover";
   aboutBox.style.backgroundPosition = "center";
