@@ -25,7 +25,7 @@ const imageMode = (mode) => {
   home.style.transition = "all 0.7s ease-in-out";
   home.style.backgroundSize = "cover";
 
-  aboutBox.style.background = `url("./public/cloud-${mode}.svg"), var(--linear-background-alt)`;
+  aboutBox.style.background = `var(--linear-background-alt)`;
   aboutBox.style.transition = "all 0.7s ease-in-out";
   aboutBox.style.backgroundSize = "cover";
 };
